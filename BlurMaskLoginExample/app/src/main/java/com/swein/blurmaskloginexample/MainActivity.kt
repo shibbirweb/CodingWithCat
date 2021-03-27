@@ -17,6 +17,9 @@ import com.swein.blurmaskloginexample.framework.util.edittext.EditTextUtil
 import com.swein.blurmaskloginexample.framework.util.thread.ThreadUtil
 
 /**
+ * video about this project
+ * https://youtu.be/OmQ2BxdZlEA
+ *
  * 1. setting project
  * 2. make thread util
  * 3. UI
