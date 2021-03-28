@@ -17,6 +17,8 @@ import android.widget.FrameLayout
  * 7. let's run app, good
  *
  * thanks
+ *
+ * video url: https://youtu.be/8pLLqFMiNhg
  */
 class MainActivity : AppCompatActivity() {
 
