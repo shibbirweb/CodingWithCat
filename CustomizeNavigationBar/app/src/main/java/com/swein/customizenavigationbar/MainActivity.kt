@@ -20,6 +20,8 @@ import com.swein.customizenavigationbar.custom_navigation_bar.CustomNavigationBa
  * 8. not beautiful, let's keep going
  * 9. good, let's try again
  * 10. thanks
+ *
+ * video url: https://www.youtube.com/watch?v=wfIBcDxZotM
  */
 class MainActivity : FragmentActivity() {
 
