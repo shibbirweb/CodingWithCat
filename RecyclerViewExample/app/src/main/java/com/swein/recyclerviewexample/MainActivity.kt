@@ -30,6 +30,8 @@ import com.swein.recyclerviewexample.adapter.item.ItemBean
  * 9. let's click item ok
  *
  * thanks
+ *
+ * video in youtube: https://youtu.be/I1c-6UgOdM4
  */
 class MainActivity : FragmentActivity() {
 
