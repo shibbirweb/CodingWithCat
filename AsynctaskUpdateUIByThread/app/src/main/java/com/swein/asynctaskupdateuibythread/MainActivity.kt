@@ -18,6 +18,8 @@ import com.swein.asynctaskupdateuibythread.frameword.util.ThreadUtil
  * 6. run app, sorry...sorry again
  * 7. good, let's try other test
  * 8. thanks
+ *
+ * youtube video link: https://youtu.be/yDNJZuWMWag
  */
 class MainActivity : AppCompatActivity() {
 
