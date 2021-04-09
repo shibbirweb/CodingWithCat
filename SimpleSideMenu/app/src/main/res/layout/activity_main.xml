@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="Main"
+                android:textSize="15pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/buttonMenu"
+                android:text="Menu"
+                android:textSize="10pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+        <!-- your side menu fragment here -->
+        <!-- here with is your side menu's width, I like 300dp -->
+        <!-- if you want your side menu come out from left, use start -->
+        <!-- if you want your side menu come out from right, use end -->
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <!-- don't forget the id -->
+            <fragment
+                android:name="com.swein.simplesidemenu.SideMenuFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sideMenuFragment"/>
+
+        </FrameLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</FrameLayout>

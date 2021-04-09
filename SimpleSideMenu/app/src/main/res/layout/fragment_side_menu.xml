@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideMenuFragment"
+    android:background="#333333"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:textSize="12pt"
+        android:text="Side menu 1"
+        android:textColor="@color/white"
+        android:id="@+id/textViewOne"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <View
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:textSize="12pt"
+        android:text="Side menu 2"
+        android:textColor="@color/white"
+        android:id="@+id/textViewTwo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <View
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:textSize="12pt"
+        android:text="Side menu 3"
+        android:textColor="@color/white"
+        android:id="@+id/textViewThree"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <View
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"/>
+
+</LinearLayout>
