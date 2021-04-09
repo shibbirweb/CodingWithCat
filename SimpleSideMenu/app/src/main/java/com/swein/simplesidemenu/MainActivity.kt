@@ -13,6 +13,8 @@ import androidx.drawerlayout.widget.DrawerLayout
  * 3. put side menu fragment into main xml
  * 4. let's run app, let's run again, good
  * 5. thanks
+ *
+ * youtube video link: https://youtu.be/8JHFwsdjggE
  */
 class MainActivity : AppCompatActivity() {
 
