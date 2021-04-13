@@ -48,6 +48,8 @@ import com.swein.recyclerviewexample.detail.DetailActivity
  * 6. let's run app, cool
  *
  * thanks
+ *
+ * video in youtube: https://youtu.be/guo22kLrAFM
  */
 class MainActivity : FragmentActivity() {
 
