@@ -66,7 +66,7 @@ class ItemViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
                     val futureTarget: FutureTarget<Bitmap> = Glide.with(it.context)
                         .asBitmap()
                         .load(itemBean.imageUrl)
-                        .submit(imageView.width, imageView.height)
+                        .submit()
 
                     val bitmap = futureTarget.get()
 

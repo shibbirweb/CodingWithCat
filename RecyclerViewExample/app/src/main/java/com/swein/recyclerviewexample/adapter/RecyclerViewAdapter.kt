@@ -12,6 +12,7 @@ class RecyclerViewAdapter: RecyclerView.Adapter<ItemViewHolder>() {
 
     interface RecyclerViewAdapterDelegate {
         fun onLoadMore()
+        fun onItemViewClick(itemBean: ItemBean)
     }
 
     private var mutableList: MutableList<ItemBean> = mutableListOf()
@@ -30,6 +31,7 @@ class RecyclerViewAdapter: RecyclerView.Adapter<ItemViewHolder>() {
         holder.delegate = object : ItemViewHolder.ItemViewHolderDelegate {
             override fun onItemViewClick(itemBean: ItemBean) {
                 Log.d("??", "I click ${itemBean.title}")
+                delegate?.onItemViewClick(itemBean)
             }
         }
 
