@@ -26,6 +26,7 @@ import com.swein.mvpexample.login.view.LoginActivity
  * sorry....let's check code, run again, good!!! thanks
  * after click login button, I want to clear the input, run again, good, thanks
  *
+ * youtube video: https://youtu.be/7aEvmkGigOo
  */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
