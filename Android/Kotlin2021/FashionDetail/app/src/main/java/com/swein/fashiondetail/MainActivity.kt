@@ -23,6 +23,8 @@ import com.google.android.material.shape.CornerFamily
  *
  * 4. ok, let's run app, not good enough
  * let's run again, good, thanks
+ *
+ * youtube video: https://youtu.be/kVEtKW9W7FY
  */
 class MainActivity : AppCompatActivity() {
 
