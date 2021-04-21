@@ -7,6 +7,7 @@ import android.widget.EditText
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 /**
  * Do you still use shared preferecnes????? no no no.
@@ -43,22 +44,19 @@ class MainActivity : AppCompatActivity() {
                 // don't forget "@MainActivity"
                 DataStoreManager.saveValue(this@MainActivity, "testKey", text)
             }
-
         }
 
         findViewById<Button>(R.id.buttonGet).setOnClickListener {
 
             GlobalScope.launch(Dispatchers.IO) {
                 // don't forget "@MainActivity"
-                DataStoreManager.getStringValue(this@MainActivity, "testKey")
+//                DataStoreManager.getStringValue(this@MainActivity, "testKey")
                 // or
                 val value = DataStoreManager.getStringValue(this@MainActivity, "testKey", default = "123")
-
-                GlobalScope.launch(Dispatchers.Main) {
+                withContext(Dispatchers.Main) {
                     editText.setText(value)
                 }
             }
-
         }
     }
 }
