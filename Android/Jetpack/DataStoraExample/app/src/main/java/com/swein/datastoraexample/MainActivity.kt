@@ -22,6 +22,8 @@ import kotlinx.coroutines.withContext
  * - again
  * - let's save value
  * - good, thanks
+ *
+ * youtube video url: https://youtu.be/Cw1_7Cp61mI
  */
 class MainActivity : AppCompatActivity() {
 
