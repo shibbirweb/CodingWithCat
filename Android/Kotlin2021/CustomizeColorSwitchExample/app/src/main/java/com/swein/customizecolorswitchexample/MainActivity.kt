@@ -21,6 +21,8 @@ import android.os.Bundle
  * 6. let's run app
  *
  * thanks
+ *
+ * youtube video url: https://youtu.be/NWQBO80I9iw
  */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
