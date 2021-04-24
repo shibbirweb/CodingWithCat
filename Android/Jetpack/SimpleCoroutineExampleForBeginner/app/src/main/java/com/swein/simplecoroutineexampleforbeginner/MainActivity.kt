@@ -17,6 +17,7 @@ import com.swein.simplecoroutineexampleforbeginner.caseperfect.CasePerfectActivi
  *
  * the example is when I click a button, after xxxx ms, than update my UI
  *
+ * youtube video url: https://youtu.be/7ryL5n3D1Q4
  */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
